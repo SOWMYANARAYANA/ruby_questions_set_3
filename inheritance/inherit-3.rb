@@ -32,13 +32,13 @@ class Country
 	end
 
 	def countryName 
-	 # give the country name.
+	 puts "Country Name is India"
 	end
 end
 
-class City
-	def initialize
-		puts "This is the City"
+class City<Country
+	def cityName
+		puts "Mysore"
 	end
 
 	# define cityName  --> give the city name
@@ -46,7 +46,7 @@ end
 
 
 class Address < Country
-	def initialize
+	def 
 		puts "This is my address."
 	end
 
