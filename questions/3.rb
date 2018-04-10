@@ -16,9 +16,6 @@
 # Deleted file
 #        Or
 # File not found
-	 puts a = gets.to_i
-	puts "You Entered #{a}"
-
-	puts "Add file"
-	puts "Delete file"
+mail=gets.chomp
+file=File.new("mail","r+")
 
