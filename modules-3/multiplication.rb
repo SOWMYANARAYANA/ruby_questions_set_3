@@ -1,9 +1,9 @@
 module Multiplication
-	Working=1;
-	Not_Working=0
-	def Multipilcation.multiply(x,y)
+	WORKING1=1
+	NOT_WORKING1=0
+	def Multiplication.multiply(x,y)
 		@x=x
 		@y=y
-		puts =x*y
+		puts @z =@x*@y
 	end
 end

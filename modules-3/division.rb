@@ -1,9 +1,10 @@
 module Division
-	x=10
-	y=10
+	WORKING2=1
+	NOT_WORKING2=0
 	def Division.div(x,y)
 		@x=x
 		@y=y
-		puts x-y
+		@z= @x/@y
+		puts @z
 	end
 end

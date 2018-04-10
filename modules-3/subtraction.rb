@@ -1,9 +1,9 @@
 module Subtraction
-	working=0;
-	Notworking=1
+	WORKING4=1
+	NOT_WORKING4=0
 	def Subtraction.sub(x,y)
 		@x=x
 		@y=y
-		puts x-y
+		puts @x-@y
 	end 
 end
